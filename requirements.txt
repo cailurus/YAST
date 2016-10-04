@@ -1,2 +1,2 @@
-jieba == 0.3.8
+jieba == 0.38
 text-cleaner == 0.2.4
