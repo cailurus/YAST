@@ -45,6 +45,9 @@ print another_sample.analyze('都说苹果的创新力越来越差了，根据�
 # Features
 
 - [x] 支持多种分类器
-- [x] 支持 grid-search 并行搜索全局最佳参数$\gamma$和$C$
+- [x] 支持 grid-search 并行搜索全局最佳参数$$\a
+
+![equation](http://latex.codecogs.com/gif.latex?\frac{5+4+(2-3-(6+\frac{4}{5}))}{3(6-2)(2-7)})
+
 
 
