@@ -28,7 +28,7 @@ class MakeCommand(install):
 
 setup(
     name='yast',
-    version='0.2.7',
+    version='0.2.8',
     packages=['yast', 'yast.learner', 'yast.learner.liblinear.python'],
     url='',
     license='BSD',
