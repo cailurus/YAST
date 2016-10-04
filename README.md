@@ -2,7 +2,7 @@
 
 YAST 是一个简易的文本分类项目，基于 [LibLinear](http://www.csie.ntu.edu.tw/~cjlin/liblinear/)，使用 [jieba](https://github.com/fxsjy/jieba) 作为中文分词。
 
-# Quick start
+## Quick start
 
 ```python
 #!/usr/bin/env python
@@ -29,7 +29,7 @@ print sample_2.predict_single('再出悲剧！ 达喀尔拉力赛后勤车肇事
 configs = {
     'grid': 0, # 网格搜索开关。0 为关闭网格搜索，1 为开启。默认关闭。
     'feature': 3, # 特征表达。0 为 Binary feature，1 为 word count，2 为词频，3 为TF-IDF。
-    'classifier': 0 # 分类器选择。0 为 Crammer and Singer SVM multiclass，1 为 L1 损失分类，2 为 L2损失分类，3 为逻辑回归。
+    'classifier': 0 # 分类器选择。0 为 Crammer and Singer SVM multiclass，1 为 L1 损失分类 one-vs-rest，2 为 L2损失分类 one-vs-rest，3 为逻辑回归 one-vs-rest。
 }
 
 another_sample = Yast('another_sample', configs)
@@ -45,18 +45,15 @@ print another_sample.analyze('都说苹果的创新力越来越差了，根据�
 # 打印 query 的每个向量的权重，用作分析
 ```
 
-# Features
+## Features
 
 - [x] 支持多种分类器
 - [x] 支持多种特征表达
 - [x] 支持结果分析
 - [x] 支持 grid-search 并行搜索 RBF 核函数全局最佳参数 ![equation](http://latex.codecogs.com/gif.latex? \gamma) 和 ![equation](http://latex.codecogs.com/gif.latex? C)
 - [x] 自动获取标签
-![equation](http://chart.googleapis.com/chart?cht=tx&chl= \gamma)
-![equation](http://www.forkosh.com/mathtex.cgi? \gamma)
-)
 
-# How to get
+## How to get
 
 ```python
 pip install yast
