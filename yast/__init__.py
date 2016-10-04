@@ -42,8 +42,8 @@ class Yast(object):
         default_configs = {
             'converter_arguments': '-stopword 0 -stemming 0 -feature 1',
             'grid_arguments': '0',
-            'feature_arguments': '3',
-            'liblinear_arguments': '', # default is -s 4
+            'feature_arguments': '-D 0 -T 1 -I 1',
+            'liblinear_arguments': '-s 4', # default is -s 4
         }
         if 'grid' in custom_configs:
             default_configs['grid_arguments'] = custom_configs['grid']
