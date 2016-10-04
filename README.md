@@ -2,7 +2,7 @@
 
 YAST 是一个简易的文本分类项目，基于 [LibLinear](http://www.csie.ntu.edu.tw/~cjlin/liblinear/)，使用 [jieba](https://github.com/fxsjy/jieba) 作为中文分词。
 
-## Quick start
+## Getting started
 
 ```python
 #!/usr/bin/env python
