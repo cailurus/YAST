@@ -45,7 +45,7 @@ print another_sample.analyze('都说苹果的创新力越来越差了，根据�
 # Features
 
 - [x] 支持多种分类器
-- [x] 支持 grid-search 并行搜索全局最佳参数![equation](http://latex.codecogs.com/gif.latex?\gamma) 和 ![equation](http://latex.codecogs.com/gif.latex?\gamma) 
+- [x] 支持 grid-search 并行搜索全局最佳参数![equation](http://latex.codecogs.com/gif.latex?\gamma) 和 ![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cgamma%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) 
 
 
 
