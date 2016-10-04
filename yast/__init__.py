@@ -95,7 +95,7 @@ class Yast(object):
             sum(ty == py for ty, py in zip(predict_result.true_y, predict_result.predicted_y)),
             len(predict_result.true_y)))
 
-        self.test_result = '%s_test_data_svm_anlyz' % self.name
+        self.test_result = '%s_test_data_svm.anlyz' % self.name
         predict_result.save(self.test_result, analyzable)
 
     def predict_single(self, single_text):
