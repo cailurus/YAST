@@ -1,0 +1,2 @@
+include Makefile
+recursive-include yast/learner *.c *.cpp *.h Makefile
