@@ -1,6 +1,7 @@
 # YAST: Yet Another Short Text classification toolkit
 
 [![Build Status](https://travis-ci.org/ailurus1991/YAST.svg?branch=master)](https://travis-ci.org/ailurus1991/YAST)
+[![Documentation Status](https://readthedocs.org/projects/yast-doc/badge/?version=latest)](http://yast-doc.readthedocs.io/en/latest/?badge=latest)
 
 YAST 是一个简易的文本分类项目，基于 [LibLinear](http://www.csie.ntu.edu.tw/~cjlin/liblinear/)，使用 [jieba](https://github.com/fxsjy/jieba) 作为中文分词。
 
