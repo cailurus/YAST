@@ -52,6 +52,7 @@ print another_sample.analyze('都说苹果的创新力越来越差了，根据�
 - [x] 支持结果分析
 - [x] 支持 grid-search 并行搜索 RBF 核函数全局最佳参数 ![equation](<img src="http://bit.ly/2dBZJlQ" align="center" border="0" alt=" \gamma " width="17" height="17" />) 和 ![equation](http://latex.codecogs.com/gif.latex?C)
 - [x] 自动获取标签
+- [ ] <span lang="latex">\frac{1+sin(x)}{x^3}</span>
 
 # How to get
 
