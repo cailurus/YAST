@@ -9,7 +9,12 @@ branches:
 
 install:
     - pip install -r requirements.txt
+    - pip install coveralls
 
 script:
     - make
+    - coverage run --source=yast runtests.py
+
+after_success:
+    - coveralls
 
