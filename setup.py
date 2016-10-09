@@ -6,7 +6,7 @@ from setuptools.command.install import install
 from setuptools import setup
 
 
-with open('README.md') as f:
+with open('README.rst') as f:
     LONG_DESCRIPTION = f.read()
 
 
@@ -28,10 +28,10 @@ class MakeCommand(install):
 
 setup(
     name='yast',
-    version='0.2.8',
+    version='0.2.9',
     packages=['yast', 'yast.learner', 'yast.learner.liblinear.python'],
-    url='',
-    license='BSD',
+    url='https://github.com/ailurus1991/YAST',
+    license='MIT',
     author='jinyang',
     author_email='jinyang.zhou@guokr.com',
     description='Yet Another short text (toolkit based on LibLinear)',
