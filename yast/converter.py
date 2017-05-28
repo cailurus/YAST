@@ -129,6 +129,7 @@ class TextPreprocessor(object):
 
     @staticmethod
     def default_tokenizer(text):
+
         return jieba.cut_for_search(text)
 
     def preprocess(self, text):

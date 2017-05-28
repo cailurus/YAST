@@ -40,7 +40,7 @@ class Yast(object):
 
     def convert_configs(self, custom_configs=None):
         default_configs = {
-            'converter_arguments': '-stopword 0 -stemming 0 -feature 1',
+            'converter_arguments': '-stopword 1 -stemming 0 -feature 1',
             'grid_arguments': '0',
             'feature_arguments': '-D 0 -T 1 -I 1',
             'liblinear_arguments': '-s 4', # default is -s 4

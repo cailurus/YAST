@@ -73,7 +73,10 @@ class PredictionResult(object):
     def get_tags(self, num):
         dec_dict = self.get_label_dict()
         labels_sort = [kv[0] for kv in sorted(dec_dict.items(), key=operator.itemgetter(1))[::-1][:num]]
-        return labels_sort
+        labels_sort_dict = {}
+        for tag in labels_sort:
+            labels_sort_dict[tag] = dec_dict[tag]
+        return labels_sort_dict
 
 
     def load(self, file_name):
